@@ -1,0 +1,30 @@
+.productos-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.producto-card {
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.producto-card button {
+    background-color: #367BCD ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+
+.producto-card button:hover {
+    background-color: #196ED2;
+    color: #fff;
+}
+
+.imgProducto {
+    width: 150px;
+}
